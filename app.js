@@ -8,7 +8,7 @@ const port = 3000;
 app.use(mogan('combined'));
 
 app.get('/', (req, res) => {
-    res.send('Hello My World!');
+    res.send('Hello My New World!');
 });
 
 app.listen(port, () => {
